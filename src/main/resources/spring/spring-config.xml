@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:peanut="http://www.maila88.com/peanut/schema/people"
+       xmlns:peanut="http://www.maila88.com/peanut/schema/demo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
-       http://www.maila88.com/peanut/schema/people
-       http://www.maila88.com/peanut/schema/people.xsd">
+       http://www.maila88.com/peanut/schema/demo
+       http://www.maila88.com/peanut/schema/demo.xsd">
 
     <peanut:bean id="demoBean" name="peanut" address="hangzhou"/>
 
