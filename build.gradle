@@ -1,0 +1,26 @@
+
+repositories {
+    mavenLocal()
+    maven { url "http://nexus.dui88.com:8081/nexus/content/groups/public/" }
+    maven { url "http://maven.oschina.net/content/groups/public/" }
+    maven { url "http://repo.maven.apache.org/maven2" }
+    mavenCentral()
+}
+
+apply plugin: 'ear'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+jar {
+    baseName = 'spring-xsd'
+    version = '1.0.0'
+    manifest { attributes 'Main-Class': 'com.Application' }
+}
+
+dependencies {
+    apply plugin: 'build-announcements'
+    apply plugin: 'application'
+    apply plugin: 'checkstyle'
+
+    compile("org.springframework.boot:spring-boot-starter-web:1.5.1.RELEASE")
+}

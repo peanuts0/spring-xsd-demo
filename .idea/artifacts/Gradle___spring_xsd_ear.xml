@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="Gradle : spring-xsd.ear">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/spring-xsd</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="spring-xsd.ear">
+      <element id="artifact" artifact-name="Gradle : spring-xsd.ear (exploded)" />
+    </root>
+  </artifact>
+</component>

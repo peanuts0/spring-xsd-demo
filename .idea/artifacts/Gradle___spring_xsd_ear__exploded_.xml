@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Gradle : spring-xsd.ear (exploded)">
+    <output-path>$PROJECT_DIR$/build/classes/artifacts/spring-xsd/exploded/spring-xsd.ear</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spring-xsd_main/javaeeApplication/JavaEE Application Gradle : spring-xsd.ear" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/application" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/classes/artifacts/spring-xsd/exploded/spring-xsd.ear/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
